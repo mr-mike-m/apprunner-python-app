@@ -12,11 +12,12 @@
         "RepositoryName": {
             "Description": "GitHub repository name",
             "Type": "String",
-            "Default": "myrepo"
+            "Default": "apprunner-python-app"
         },
         "ECRRepoName": {
             "Description": "Name of ECR to be created",
-            "Type": "String"
+            "Type": "String",
+            "Default": "app-ecr"
         },
         "GitHubOAthToken": {
             "Description": "GitHub OAuth Token",
@@ -25,7 +26,7 @@
         "RepoOwner": {
             "Description": "GitHub Repo Owner",
             "Type": "String",
-            "ParameterProperty" : "Michael Muller"
+            "Default" : "Michael Muller"
         }
     },
     "Resources": {
