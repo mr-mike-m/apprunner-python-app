@@ -26,7 +26,7 @@
         "RepoOwner": {
             "Description": "GitHub Repo Owner",
             "Type": "String",
-            "Default" : "Michael Muller"
+            "Default" : "mr-mike-m"
         }
     },
     "Resources": {
